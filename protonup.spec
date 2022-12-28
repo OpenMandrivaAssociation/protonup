@@ -30,7 +30,7 @@ Manage Proton-GE Installations
 #python_expand %fdupes %{buildroot}%{$python_sitelib}
 
 
-%files %{python_files}
+%files
 %doc README.md
 %license LICENSE
 %python_alternative %{_bindir}/protonup
