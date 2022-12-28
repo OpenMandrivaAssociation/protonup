@@ -9,6 +9,8 @@ URL:            https://github.com/cloudishBenne/protonup-ng
 Source:         https://github.com/cloudishBenne/protonup-ng/archive/refs/tags/%{version}/protonup-ng-%{version}.tar.gz
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(requests)
+BuildRequires:  python3dist(wheel)
+BuildRequires:  python3dist(pip)
 Requires:       python3dist(requests)
 # This is a drop in replacement of protonup, and uses the same filenames for compatibility.
 Provides:       python3-protonup
