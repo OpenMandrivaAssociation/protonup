@@ -28,12 +28,11 @@ Manage Proton-GE Installations
 
 %install
 %py_install
-#python_clone -a %{buildroot}%{_bindir}/protonup
-#python_expand %fdupes %{buildroot}%{$python_sitelib}
+
 
 
 %files
 %doc README.md
 %license LICENSE
-%python_alternative %{_bindir}/protonup
+%{_bindir}/protonup
 %{python_sitelib}/protonup*
