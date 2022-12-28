@@ -19,7 +19,7 @@ BuildArch:      noarch
 Manage Proton-GE Installations
 
 %prep
-%autosetup protonup-ng-%{version} -p1
+%autosetup -n protonup-ng-%{version} -p1
 
 %build
 %py_build
